@@ -9,9 +9,9 @@ class Template extends BaseStage
 
 	override function create()
 	{
-		// Spawn your stage sprites here.
+		// Here is where you put your sprites, for ex., your BG.
 		// Characters are not ready yet on this function, so you can't add things above them yet.
-		// Use createPost() if that's what you want to do.
+		// Use createPost() function if that's what you want to do.
 	}
 	
 	override function createPost()
@@ -21,12 +21,13 @@ class Template extends BaseStage
 
 	override function update(elapsed:Float)
 	{
-		// Code here
+		// Normally here you put things that you have to update in game,
+		// Like tweens and stuff.
 	}
 
 	override function destroy()
 	{
-		// Code here
+		// This is triggered when the player leaves the match.
 	}
 
 	
@@ -44,7 +45,7 @@ class Template extends BaseStage
 
 	override function startSong()
 	{
-		// Code here
+		// Before create() and createPost()
 	}
 
 	// Steps, Beats and Sections:
